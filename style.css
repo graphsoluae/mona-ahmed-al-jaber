@@ -213,38 +213,47 @@ button{
 
 
 
-@media only screen and (min-width: 351px) and (max-width:450px){
+@media only screen and (min-width: 400px) and (max-width:500px){
     .logo-container {
-            width: 320px;
+            width: 82%;
     }
     .logo-image{
-        width: 260px;
-        height: 105px;
+        width: 80%;
+        height: 100px;
     }
     .name-text{
         font-size: 26px;
     }
-    /* .position-text{
-        font-size: 18px;
-    } */
+    
 
 }
-@media only screen and (max-width: 350px) {
+@media only screen and (min-width: 350px) and (max-width:399px){
     .logo-container {
-        width: 250px;
+            width: 82%;
     }
-
-    .logo-image {
-        width: 240px;
+    .logo-image{
+        width: 80%;
         height: 80px;
     }
-
-    .name-text {
+    .name-text{
         font-size: 26px;
     }
+    
 
-    /* .position-text{
-        font-size: 18px;
-    } */
+}
+@media only screen and (max-width:349px){
+    .logo-container {
+            width: 82%;
+    }
+    .logo-image{
+        width: 80%;
+        height: 70px;
+    }
+    .name-text{
+        font-size: 20px;
+    }
+    .position-text{
+        font-size: 12px;
+    }
 
 }
