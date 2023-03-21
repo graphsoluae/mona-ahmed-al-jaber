@@ -1,11 +1,13 @@
 body {
     text-align: center;
     font-family: 'Poppins', sans-serif;
+    background: rgba(159, 164, 196, .25);
+    color: #946e38;
 
 
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
         background-size: 400% 400%;
-        animation: gradient 15s ease infinite;
+        animation: gradient 15s ease infinite; */
     
 }
 @keyframes gradient {
@@ -24,6 +26,7 @@ body {
 
 h3 {
     font-size: 17px;
+    color: #000;
 }
 
 button{
@@ -35,7 +38,8 @@ button{
     
 }
 .shade-background{
-    background: rgba(159, 164, 196, .25);
+    /* background: rgba(159, 164, 196, .25); */
+    background: #fff;
     margin:0px 15px;
     border-radius: 15px;
     padding: 30px 0px;
