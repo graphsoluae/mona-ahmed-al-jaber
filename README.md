@@ -1,5 +1,5 @@
-# Company Profile Creator
-Developed by Graphic Solution
+# Company Profile 
+Developed by Graphic Solutions
 
 
 Developer Contact
