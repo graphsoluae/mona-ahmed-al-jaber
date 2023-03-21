@@ -63,7 +63,7 @@ button{
 .logo-container{
     background-color: white;
     border-radius: 25px;
-    width: 300px;
+    width: 400px;
     margin: auto;
     padding: 10px;
 }
@@ -208,4 +208,25 @@ button{
     100% {
         background-position: 0 0;
     }
+}
+
+
+
+
+@media only screen and (max-width: 450px) {
+    .logo-container {
+            
+            width: 300px;
+    }
+    .logo-image{
+        width: 250px;
+        height: 100px;
+    }
+    .name-text{
+        font-size: 26px;
+    }
+    /* .position-text{
+        font-size: 18px;
+    } */
+
 }
