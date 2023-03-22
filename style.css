@@ -300,3 +300,9 @@ span{
 .download-image{
     margin-top: 6px;
 }
+
+a{
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+}
